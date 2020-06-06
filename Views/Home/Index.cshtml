@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Survey</title>
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="/Result" method="POST">
+            <div class="form-group my-2 row">
+                <label for="Name" class="col-sm-3 col-form-label d-none d-sm-block">Name:</label>
+                <div class="col col-sm-9">
+                    <input type="text" name="Name" class="form-control" id="Name" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Dojo_Location" class="col-3 col-form-label d-none d-sm-block">Dojo Location:</label>
+                <div class="col col-sm-9">
+                    <select name="Dojo_Location" class="form-control" id="Dojo_Location">
+                        <option disabled selected value>Select Dojo Location</option>
+                        <option value="Seattle">Seattle</option>
+                        <option value="LA">LA</option>
+                        <option value="Chicago">Chicago</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Favorite_Language" class="col-3 col-form-label d-none d-sm-block">Favorite Language:</label>
+                <div class="col col-sm-9">
+                    <select name="Favorite_Language" class="form-control" id="Favorite_Language">
+                        <option disabled selected value>Select Favorite Language</option>
+                        <option value="Python">Python</option>
+                        <option value="C#">C#</option>
+                        <option value="JavaScript">JavaScript</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Comment" class="col-3 col-form-label d-none d-sm-block">Comment:</label>
+                <div class="col col-sm-9">
+                    <textarea name="Comment" class="form-control" id="Comment" rows="3" placeholder="Comment..."></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col">
+                    <button class="btn btn-primary float-right" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
