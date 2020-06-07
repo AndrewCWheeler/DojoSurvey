@@ -1,3 +1,5 @@
+@model DojoSurvey.Models.Survey
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,11 +28,16 @@
                 <p>Comment:</p>
             </div>
             <div class="col">
-                <p>@ViewBag.name</p>
-                <p>@ViewBag.dojo_location</p>
-                <p>@ViewBag.favorite_language</p>
-                <p>@ViewBag.comment</p>
-                <a href="/" class="btn btn-primary" role="button">Go Back</a>
+                <p>@Model.Name</p>
+                <p>@Model.Dojo_Location</p>
+                <p>@Model.Favorite_Language</p>
+                <p>@Model.Comment</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <a href="/" class="btn btn-primary float-right" role="button">Go Back</a>
             </div>
         </div>
     </div>

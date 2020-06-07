@@ -22,3 +22,5 @@
 /Users/Andrew/CodingDojo/c#/DojoSurvey/obj/Debug/netcoreapp2.2/DojoSurvey.RazorTargetAssemblyInfo.cs
 /Users/Andrew/CodingDojo/c#/DojoSurvey/obj/Debug/netcoreapp2.2/DojoSurvey.Views.pdb
 /Users/Andrew/CodingDojo/c#/DojoSurvey/obj/Debug/netcoreapp2.2/DojoSurvey.csproj.CopyComplete
+/Users/Andrew/CodingDojo/c#/DojoSurvey/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/Andrew/CodingDojo/c#/DojoSurvey/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs

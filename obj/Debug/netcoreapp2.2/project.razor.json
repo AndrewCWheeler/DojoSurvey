@@ -2961,8 +2961,18 @@
   "RootNamespace": "DojoSurvey",
   "Documents": [
     {
+      "FilePath": "/Users/Andrew/CodingDojo/c#/DojoSurvey/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/Andrew/CodingDojo/c#/DojoSurvey/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/Andrew/CodingDojo/c#/DojoSurvey/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
